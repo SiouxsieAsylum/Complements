@@ -4,6 +4,9 @@
   <title>Complement</title>
 </head>
 <body>
-  <h1>Hello, <%= @name.capitalize! %>. <%= @complement %></h1>
+  <div class = "container">
+    <h1>Hello, <%= @name.capitalize! %>. <%= @complement %></h1>
+    <%= link_to "show", "/:name" %>
+  </div>
 </body>
 </html>
